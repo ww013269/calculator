@@ -1,5 +1,7 @@
 # Calculator
 
+> 📘 **手把手教學**：給零基礎新手的 Angular 計算機教學與開發規格書，請從 [docs/README.md](docs/README.md) 開始。
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
 
 ## Development server
