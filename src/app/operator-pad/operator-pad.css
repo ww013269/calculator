@@ -1,0 +1,13 @@
+.operator-pad {
+  display: flex;
+  gap: 10px; /* 子元素之間的間距 */
+  flex-direction: column; /* 改成直的排 */
+}
+.operator-symbol {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+.operator-symbol:hover {
+  background: #dbcfcf;
+}

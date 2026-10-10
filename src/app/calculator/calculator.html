@@ -1,0 +1,47 @@
+<div class="main">
+  <div class="display-area">
+    <app-display></app-display>
+  </div>
+  <div class="button-area">
+    <app-number-pad></app-number-pad>
+    <app-operator-pad></app-operator-pad>
+  </div>
+  <div class="clear-area">
+    <button class="clear-button">clear</button>
+  </div>
+  <div class="history-table">
+    <table>
+      <thead>
+        <!-- 表頭區 -->
+        <tr>
+          <!-- table row：一列 -->
+          <th>Ans</th>
+          <!-- table header：表頭格 -->
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 內容區 -->
+        <tr>
+          <td>NT$14.00</td>
+          <!-- table data：一般格 -->
+          <td>*</td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td colspan="3">尚無資料</td>
+          <!-- colspan：橫跨 2 格 -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- <app-display></app-display>
+<br />
+<br />
+<app-number-pad></app-number-pad>
+<br />
+<br />
+<app-operator-pad></app-operator-pad> -->

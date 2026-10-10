@@ -1,0 +1,13 @@
+.number-button-area {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+  gap: 10px;
+}
+.number-button {
+  width: 35px; /* 寬度，px = 像素 */
+  height: 48px;
+  cursor: pointer;
+}
+.number-button:hover {
+  background: #dbcfcf;
+}

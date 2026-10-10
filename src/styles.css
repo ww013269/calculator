@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* 清除 預設為 <body> 加上大約 8px 的 margin，設定*/
+body {
+  margin: 0;
+}

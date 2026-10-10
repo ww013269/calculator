@@ -1,0 +1,33 @@
+.main {
+  width: 300px;
+  height: 600px;
+  background-color: rgb(206, 184, 155);
+  border-radius: 50px;
+  flex-direction: column; /* 改成直的排 */
+  display: flex;
+  align-items: center; /*交叉軸（縱向）置中 → 上下置中*/
+  gap: 30px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.button-area {
+  display: flex;
+  gap: 30px;
+}
+.display-area {
+  margin-top: 20px;
+}
+:host {
+  display: flex;
+  justify-content: center; /*主軸（橫向）置中 → 左右置中 */
+  align-items: center; /*交叉軸（縱向）置中 → 上下置中*/
+  min-height: 100vh; /* 父元素至少跟視窗一樣高 */
+}
+th,
+td {
+  border: 1px solid #555;
+  padding: 4px 8px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
