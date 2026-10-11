@@ -1,5 +1,5 @@
 <div class="number-button-area">
   @for (num of numbers; track $index) {
-    <button class="number-button" type="button">{{ num }}</button>
+    <button class="number-button" type="button" (click)="digitPressed.emit(num)">{{ num }}</button>
   }
 </div>

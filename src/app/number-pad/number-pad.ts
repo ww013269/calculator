@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 
 @Component({
   imports: [],
@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class NumberPad {
   protected numbers = ['9', '8', '7', '6', '5', '4', '3', '2', '1', '0'];
+
+  readonly digitPressed = output<string>();
+
+  // readonly name = input('');
+  // 預設值是空字串
 }

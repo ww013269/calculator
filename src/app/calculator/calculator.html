@@ -1,9 +1,9 @@
 <div class="main">
   <div class="display-area">
-    <app-display></app-display>
+    <app-display [displayFormula]="formula()"></app-display>
   </div>
   <div class="button-area">
-    <app-number-pad></app-number-pad>
+    <app-number-pad (digitPressed)="onDigitPressed($event)" />
     <app-operator-pad></app-operator-pad>
   </div>
   <div class="clear-area">

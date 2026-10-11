@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './display.css',
   templateUrl: './display.html',
 })
-export class Display {}
+export class Display {
+  readonly displayFormula = input('');
+}
